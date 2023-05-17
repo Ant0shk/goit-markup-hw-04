@@ -108,6 +108,7 @@ body {
 .header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .menu-link {
   font-weight: 500;
@@ -146,12 +147,6 @@ body {
   padding: o 472px 0 472px;
   margin: 0 auto;
 }
-.container-hero-position {
-  /* background-color: var(--background-color-hero);
-  padding-top: 188px;
-  padding-bottom: 188px;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); */
-}
 .section-hero {
   background-color: var(--background-color-hero);
   max-width: 1440px;
@@ -165,6 +160,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
+  background-position: center;
 }
 
 .button {
@@ -363,11 +359,11 @@ body {
   align-items: baseline;
   }
 .container-first{
-  margin-right: 120px
+  gap: 120px;
 }
-.container-second{
-justify-content: center;
-}
+/* .container-second{
+ } */
+
 .cocial-media{
   font-weight: 500;
   font-size: 16px;
