@@ -255,9 +255,6 @@ body {
 .text-specialist {
   text-align: center;
 }
-/* .social {
-  padding: 32px 0;
-} */
 .social-list {
   display: flex;
   justify-content: center;
@@ -278,6 +275,7 @@ body {
 }
 .social-list-link:hover,
 .social-list-link:hover {
+  background-color: #404bbf;
   background-color: #404bbf;
 }
 .social-icon-link {
@@ -361,8 +359,6 @@ body {
 .container-first{
   gap: 120px;
 }
-/* .container-second{
- } */
 
 .cocial-media{
   font-weight: 500;
@@ -412,8 +408,10 @@ body {
   background: #404bbf;
   color: #ffffff;
   border: 1px solid transparent;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
+  }
 .cocial-media-icon{
   fill:#f4f4fd;
   }
@@ -439,6 +437,9 @@ body {
 .link-element-gallery:focus{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
+.link-element-gallery{
+  display: block;
 }
 .link-gallery {
   padding: 32px 16px;
