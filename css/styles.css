@@ -250,10 +250,11 @@ body {
 }
 .title-specialist {
   text-align: center;
-}
+ }
 
 .text-specialist {
   text-align: center;
+  margin-bottom: 8px;
 }
 .social-list {
   display: flex;
@@ -355,6 +356,7 @@ body {
 .footer-container{
   display: flex;
   align-items: baseline;
+  gap: 120px;
   }
 .container-first{
   gap: 120px;
